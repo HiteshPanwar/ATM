@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select type of account"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="25dp"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="79dp"
+            android:layout_above="@+id/textView13"
+            android:layout_alignStart="@+id/checkBox5" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saving"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="122dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Amount"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="200dp"
+            android:layout_above="@+id/withdrawAmount"
+            android:layout_alignEnd="@+id/cancel"
+            android:layout_marginBottom="19dp" />
+
+        <EditText
+            android:id="@+id/withdrawAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="250dp"
+            android:layout_above="@+id/withdrawbtn"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/withdrawbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Withdraw"
+            tools:layout_editor_absoluteX="196dp"
+            tools:layout_editor_absoluteY="320dp"
+            android:layout_above="@+id/cancel"
+            android:layout_alignStart="@+id/cancel"
+            android:layout_marginBottom="21dp" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            tools:layout_editor_absoluteX="196dp"
+            tools:layout_editor_absoluteY="386dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/withdrawAmount"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="114dp" />
+
+</RelativeLayout>
+
+
+
+

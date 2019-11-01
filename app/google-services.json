@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "715643032238",
+    "firebase_url": "https://atmoose-a01f3.firebaseio.com",
+    "project_id": "atmoose-a01f3",
+    "storage_bucket": "atmoose-a01f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715643032238:android:8821d35a3a8a5763",
+        "android_client_info": {
+          "package_name": "com.automatic.telling.machine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715643032238-a2rp9amep0c123qmophfh8a457k3h8s9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG_diH8wgfCX9fFhBbPbTjymeIH4yQQWI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

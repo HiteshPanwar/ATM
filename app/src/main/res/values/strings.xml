@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DialogueBucketAdmin</string>
+    <string name="title_activity_add_dialogue_in_objectin_exclusive">
+        AddDialogueInObjectinExclusive
+    </string>
+    <string name="title_activity_add_dialogue_in_exclusive">AddDialogueInExclusive</string>
+    <string name="title_activity_userlogin">Userlogin</string>
+</resources>
