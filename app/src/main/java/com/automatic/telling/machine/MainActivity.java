@@ -3,7 +3,7 @@ package com.automatic.telling.machine;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
+//hellogit
 public class MainActivity extends AppCompatActivity {
 //Button trendingBtn,newBtn,kidsBtn,greatestBtn,famousBtn,dailyBtn,browseBtn;
 
